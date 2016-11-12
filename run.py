@@ -2,6 +2,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 import datetime
 
+#having trouble printing the current_time, receiving "current_time undefined"
 current_time=datetime.datetime.now()
 print(current_time)
     
